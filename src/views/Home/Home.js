@@ -314,7 +314,7 @@ const Home = () => {
               </Box>
               <Button
                 onClick={() => {
-                  helioFinance.watchAssetInMetamask('HELIO');
+                  helioFinance.watchAssetInMetamask('RESPECT');
                 }}
                 style={{ position: 'absolute', top: '10px', right: '10px', border: '1px grey solid' }}
               >
@@ -329,7 +329,7 @@ const Home = () => {
               </Box>
               <Box>
                 <span style={{ fontSize: '16px', alignContent: 'flex-start' }}>
-                  ${helioPriceInDollars ? roundAndFormatNumber(helioPriceInDollars, 2) : '-.--'} / HELIO
+                  ${helioPriceInDollars ? roundAndFormatNumber(helioPriceInDollars, 2) : '-.--'} / RESPECT
                 </span>
               </Box>
               <span style={{ fontSize: '12px' }}>
@@ -341,13 +341,13 @@ const Home = () => {
           </Card>
         </Grid>
 
-        {/* HSHARE */}
+        {/* RSHARE */}
         <Grid item xs={12} sm={4}>
           <Card>
             <CardContent align="center" style={{ position: 'relative' }}>
               <Button
                 onClick={() => {
-                  helioFinance.watchAssetInMetamask('HSHARE');
+                  helioFinance.watchAssetInMetamask('RSHARE');
                 }}
                 style={{ position: 'absolute', top: '10px', right: '10px', border: '1px grey solid' }}
               >
@@ -360,7 +360,7 @@ const Home = () => {
                   <TokenSymbol symbol="HSHARE" />
                 </CardIcon>
               </Box>
-              <h2 style={{ marginBottom: '10px' }}>HSHARE</h2>
+              <h2 style={{ marginBottom: '10px' }}>RSHARE</h2>
               Current Price
               <Box>
                 <span style={{ fontSize: '30px', color: 'white' }}>
@@ -368,7 +368,7 @@ const Home = () => {
                 </span>
               </Box>
               <Box>
-                <span style={{ fontSize: '16px' }}>${hSharePriceInDollars ? hSharePriceInDollars : '-.--'} / HSHARE</span>
+                <span style={{ fontSize: '16px' }}>${hSharePriceInDollars ? hSharePriceInDollars : '-.--'} / RSHARE</span>
               </Box>
               <span style={{ fontSize: '12px' }}>
                 Market Cap: ${roundAndFormatNumber((hShareCirculatingSupply * hSharePriceInDollars).toFixed(2), 2)}{' '}
@@ -380,13 +380,13 @@ const Home = () => {
           </Card>
         </Grid>
 
-        {/* HBOND */}
+        {/* RBOND */}
         <Grid item xs={12} sm={4}>
           <Card>
             <CardContent align="center" style={{ position: 'relative' }}>
               <Button
                 onClick={() => {
-                  helioFinance.watchAssetInMetamask('HBOND');
+                  helioFinance.watchAssetInMetamask('RBOND');
                 }}
                 style={{ position: 'absolute', top: '10px', right: '10px', border: '1px grey solid' }}
               >
@@ -396,7 +396,7 @@ const Home = () => {
               </Button>
               <Box mt={2}>
                 <CardIcon>
-                  <TokenSymbol symbol="HBOND" />
+                  <TokenSymbol symbol="RBOND" />
                 </CardIcon>
               </Box>
               <h2 style={{ marginBottom: '10px' }}>HBOND</h2>
@@ -407,7 +407,7 @@ const Home = () => {
                 </span>
               </Box>
               <Box>
-                <span style={{ fontSize: '16px' }}>${tBondPriceInDollars ? tBondPriceInDollars : '-.--'} / HBOND</span>
+                <span style={{ fontSize: '16px' }}>${tBondPriceInDollars ? tBondPriceInDollars : '-.--'} / RBOND</span>
               </Box>
               <span style={{ fontSize: '12px' }}>
                 Market Cap: ${roundAndFormatNumber((tBondCirculatingSupply * tBondPriceInDollars).toFixed(2), 2)} <br />
