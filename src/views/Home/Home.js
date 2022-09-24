@@ -288,7 +288,7 @@ const Home = () => {
                 className={'shinyButton ' + classes.button}
                 style={{ margin: '10px' }}
               >
-                HSHARE Chart
+                RSHARE Chart
               </Button>
               { <Button
                 target="_blank"
@@ -303,7 +303,7 @@ const Home = () => {
           </Card>
         </Grid>
 
-        {/* HELIO */}
+        {/* RESPECT */}
         <Grid item xs={12} sm={4}>
           <Card>
             <CardContent align="center" style={{ position: 'relative' }}>
@@ -323,7 +323,7 @@ const Home = () => {
                 <img alt="metamask fox" style={{ width: '20px', filter: 'grayscale(100%)' }} src={MetamaskFox} />
               </Button>
               <h2 style={{ marginBottom: '10px' }}>HELIO</h2>
-              4,000 HELIO (1.0 Peg) =
+              4,000 RESPECT (1.0 Peg) =
               <Box>
                 <span style={{ fontSize: '30px', color: 'white' }}>{helioPriceInMATIC ? helioPriceInMATIC : '-.----'} ETH</span>
               </Box>
@@ -400,7 +400,7 @@ const Home = () => {
                 </CardIcon>
               </Box>
               <h2 style={{ marginBottom: '10px' }}>HBOND</h2>
-              4,000 HBOND
+              4,000 RBOND
               <Box>
                 <span style={{ fontSize: '30px', color: 'white' }}>
                   {tBondPriceInMATIC ? tBondPriceInMATIC : '-.----'} ETH
@@ -425,7 +425,7 @@ const Home = () => {
                   <TokenSymbol symbol="HELIO-ETH-LP" />
                 </CardIcon>
               </Box>
-              <h2>HELIO-ETH QuickSwap LP</h2>
+              <h2>RESPECT-ETH QuickSwap LP</h2>
               <Box mt={2}>
                 <Button onClick={onPresentHelioZap} className="shinyButtonSecondary">
                   Zap In
@@ -510,12 +510,12 @@ const Home = () => {
                   fontSize='12px'
                   gutterBottom>
                   <div style={{ flexDirection: 'column', textAlign: 'left' }}>
-                    <div>HELIO-LP</div>
+                    <div>RESPECT-LP</div>
                     <b style={{ fontSize: '14px' }}>{strategyValue}%</b>
                   </div>
                   <div style={{ width: '100%' }}>{' '}</div>
                   <div style={{ flexDirection: 'column', textAlign: 'right' }}>
-                    <div>HSHARE-LP</div>
+                    <div>RSHARE-LP</div>
                     <b style={{ fontSize: '14px' }}>{100 - strategyValue}%</b>
                   </div>
                 </Typography>
@@ -568,7 +568,7 @@ const Home = () => {
                   <TokenSymbol symbol="HSHARE-MATIC-LP" />
                 </CardIcon>
               </Box>
-              <h2>HSHARE-MATIC QuickSwap LP</h2>
+              <h2>RSHARE-MATIC QuickSwap LP</h2>
               <Box mt={2}>
                 <Button onClick={onPresentHshareZap} className="shinyButtonSecondary">
                   Zap In
@@ -576,7 +576,7 @@ const Home = () => {
               </Box>
               <Box mt={2}>
                 <span style={{ fontSize: '26px' }}>
-                  {bshareLPStats?.tokenAmount ? bshareLPStats?.tokenAmount : '-.--'} HSHARE /{' '}
+                  {bshareLPStats?.tokenAmount ? bshareLPStats?.tokenAmount : '-.--'} RSHARE /{' '}
                   {bshareLPStats?.ftmAmount ? bshareLPStats?.ftmAmount : '-.--'} MATIC
                 </span>
               </Box>
