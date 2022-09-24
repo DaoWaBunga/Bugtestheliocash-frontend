@@ -207,15 +207,15 @@ const Home = () => {
         <Grid item xs={12} sm={8}>
           <Paper>
             <Box p={4} style={{ textAlign: 'center' }}>
-              <h2>Welcome to Helio Cash</h2>
+              <h2>Welcome to Respect Finance</h2>
               <p>
                 The algocoin that follows Ethereum's price! Now you can have high yields normally only found on risky assets, but with exposure to the world’s favorite cryptocurrency instead.
               </p>
               <p>
-                <strong>HELIO is pegged via algorithm to a 4,000:1 ratio to ETH. $4k ETH = $1 HELIO PEG</strong>
+                <strong>RESPECT is pegged via algorithm to a 4,000:1 ratio to ETH. $4k ETH = $1 RESPECT PEG</strong>
                 </p>
-              <p>   Stake your HELIO-ETH LP in the Farm to earn HSHARE rewards. Then stake your earned HSHARE in the
-                Boardroom to earn more HELIO! 
+              <p>   Stake your RESPECT-ETH LP in the Farm to earn HSHARE rewards. Then stake your earned HSHARE in the
+                Boardroom to earn more RESPECT! 
               </p>
               <p>
                 <IconTelegram alt="telegram" style={{ fill: '#dddfee', height: '15px' }} /> Join our{' '}
@@ -264,7 +264,7 @@ const Home = () => {
                 style={{ margin: '4px' }}
                 className={'shinyButtonSecondary ' + classes.button}
               >
-                Buy HELIO
+                Buy RESPECT
               </Button>
               <Button
                 target="_blank"
@@ -272,7 +272,7 @@ const Home = () => {
                 style={{ margin: '10px' }}
                 className={'shinyButton ' + classes.button}
               >
-                HELIO Chart
+                RESPECT Chart
               </Button>
               <Button
                 target="_blank"
@@ -280,7 +280,7 @@ const Home = () => {
                 className={'shinyButtonSecondary ' + classes.button}
                 style={{ margin: '4px' }}
               >
-                Buy HSHARE
+                Buy RSHARE
               </Button>
               <Button
                 target="_blank"
